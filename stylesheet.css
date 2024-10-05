@@ -108,6 +108,7 @@ body {
     margin: 30px 0;
 }
 
+
 .home-sci {
     display: flex;
     justify-content: center;
@@ -127,7 +128,30 @@ body {
     margin: 30px 15px 30px 0;
 }
 
+.home-sci-profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 5%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    transition: 0.3s;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    margin: 10px 15px 30px 0;
+}
+
 .home-sci:hover {
+    background-color: #0ef;
+    color: #fff;
+}
+.home-sci-profiles:hover {
     background-color: #0ef;
     color: #fff;
 }
@@ -370,31 +394,31 @@ body {
 }
 
 .progress-line.html span {
-    width: 90%;
+    width: 85%;
 }
 
 .progress-line.css span {
-    width: 90%;
+    width: 85%;
 }
 
 .progress-line.javascript span {
-    width: 90%;
+    width: 75%;
 }
 
 .progress-line.reactjs span {
-    width: 90%;
+    width: 80%;
 }
 
 .progress-line.python span {
-    width: 90%;
+    width: 85%;
 }
 
 .progress-line.cpp span {
-    width: 90%;
+    width: 80%;
 }
 
 .progress-line.java span {
-    width: 90%;
+    width: 70%;
 }
 
 .progress-line span::after {
@@ -411,31 +435,31 @@ body {
 }
 
 .progress-line.html span::after {
-    content: "90%";
+    content: "85%";
 }
 
 .progress-line.css span::after {
-    content: "90%";
+    content: "85%";
 }
 
 .progress-line.javascript span::after {
-    content: "90%";
+    content: "75%";
 }
 
 .progress-line.reactjs span::after {
-    content: "90%";
+    content: "80%";
 }
 
 .progress-line.python span::after {
-    content: "90%";
+    content: "85%";
 }
 
 .progress-line.cpp span::after {
-    content: "90%";
+    content: "80%";
 }
 
 .progress-line.java span::after {
-    content: "90%";
+    content: "70%";
 }
 
 .progress-line span::before {
